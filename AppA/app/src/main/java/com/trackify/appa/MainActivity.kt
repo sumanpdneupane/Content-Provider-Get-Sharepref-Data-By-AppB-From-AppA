@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         if (map.isNotEmpty()) {
             binding.displaySharedValue.setText("${map.toMap()}")
         }
+
     }
 
     @SuppressLint("Range")
